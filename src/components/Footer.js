@@ -26,17 +26,19 @@ margin-top: 4rem;
 export default function Footer() {
   return (
     <FooterStyle>
-              <div className="copyright">
+      <div className="copyright">
         <div className="container">
           <PText>
-            © 2023 - MANYA GARG | Designed By{' '}
+            © 2023 - MANYA GARG | Designed By
+{' '}
             <a target="_blank" rel="noreferrer" href="//www.linkedin.com/in/manya-garg-99849320a/">
               manya garg
-            </a>{' '}
+            </a>
+{' '}
           </PText>
         </div>
       </div>
 
     </FooterStyle>
-  )
+  );
 }

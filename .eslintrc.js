@@ -21,5 +21,10 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+    'linebreak-style': ['error', process.platform === 'win32' ? 'windows' : 'unix'],
+    // eslint-disable-next-line no-dupe-keys
+    'linebreak-style': 0,
+    'react/jsx-filename-extension': 0,
+    'react/jsx-indent': 0,
   },
 };
