@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React from 'react';
 import { BrowserRouter as Router , Route , Switch } from 'react-router-dom';
 import NavMenu from './components/NavMenu.js';
@@ -9,8 +10,7 @@ import ScrollToTop from './components/ScrollToTop.js';
 
 export default function App() {
   return (
-    <>
-      <Router>
+    <Router>
         <NavMenu /> {/*  show navvbar here */}
      <ScrollToTop />
        <Switch>  {/* when we have this route path: /about , which is given in navbar Navlink,show this component */}
@@ -26,12 +26,11 @@ export default function App() {
           <Contact />
         </Route>
 
-        <Route path="/"> {/*  take this case at end bcoz otherwise , this will work for all urls starting with / */} 
+        <Route path="/"> {/*  take this case at end bcoz otherwise , this will work for all urls starting with / */}
           <Home />
         </Route>
 
        </Switch>
       </Router>
-    </>
   );
 }

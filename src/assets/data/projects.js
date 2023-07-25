@@ -38,6 +38,6 @@ const projects = [
     img: CavinImg,
     linkk: '//github.com/ManyaGarg20/My_Portfolio',
   },
-  ];
+];
 
 export default projects;

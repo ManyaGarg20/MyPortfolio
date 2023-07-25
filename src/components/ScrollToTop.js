@@ -1,3 +1,5 @@
+/* eslint-disable indent */
+/* eslint-disable no-undef */
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 

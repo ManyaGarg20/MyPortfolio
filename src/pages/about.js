@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-closing-bracket-location */
 import React from 'react';
 import styled from 'styled-components';
 import PText from '../components/PText';
@@ -6,7 +7,7 @@ import AboutImg from '../assets/images/about-page-img.png';
 import AboutInfoItem from '../components/AboutInfoItem.js';
 import ContactBanner from '../components/ContactBanner';
 import Footer from '../components/Footer';
-import ExamplePdf from '../assets/data/pdf.pdf'
+import ExamplePdf from '../assets/data/pdf.pdf';
 
 const AboutPageStyles = styled.div`
   padding: 15rem 0 1rem 0;

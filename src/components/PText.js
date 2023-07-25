@@ -1,5 +1,5 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
 
 const PStyle = styled.div`
   max-width: 500px;
@@ -17,5 +17,5 @@ export default function PText({children}) {
         {/* props.children : property of props to take text from parent component */}
           <p>{children}</p>
    </PStyle>
-  )
+  );
 }

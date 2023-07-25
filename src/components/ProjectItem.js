@@ -1,3 +1,4 @@
+/* eslint-disable space-infix-ops */
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
@@ -37,7 +38,7 @@ const ProjectItemStyles = styled.div`
 `;
 
 export default function ProjectItem({
-    gitLink='https://github.com/ManyaGarg20',
+  gitLink='https://github.com/ManyaGarg20',
   img = ProjectImg,
   title = 'Project Name',
   desc = 'Project description.',

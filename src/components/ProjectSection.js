@@ -62,8 +62,8 @@ export default function ProjectsSection() {
       <div className="container">
         <SectionTitle subheading="some of my recent works" heading="Projects" />
         <div className="projects__allItems">
-  {/* carousel , swiper is js element    */}
-       <Swiper    
+          {/* carousel , swiper is js element    */}
+          <Swiper
             spaceBetween={30}
             slidesPerView={1}
             navigation

@@ -1,9 +1,8 @@
-import React from 'react'
-import styled from 'styled-components'
-import MyImg from '../assets/images/img-mg2.jpg'
-import PText from './PText'
+import React from 'react';
+import styled from 'styled-components';
+import MyImg from '../assets/images/img-mg2.jpg';
+import PText from './PText';
 import Button from './Button';
-
 
 const HeroStyles = styled.div`
 .hero {
@@ -88,9 +87,8 @@ an eye for detail.
          </PText>
          <Button btnLink="/projects" btnText='see my works'/>
 </div>
-
 </div>
     </div>
     </HeroStyles>
-  )
+  );
 }
