@@ -39,6 +39,9 @@ padding: 8rem 0;
       flex: 3;
     }
   }
+  .linkedIn{
+color: var(--white)
+  }
   @media only screen and (max-width: 768px) {
     .container {
       flex-direction: column;
@@ -90,9 +93,9 @@ to utilise my strong technical and
 analytical skills. Also a team player with
 an eye for detail.
 <br /> <br/>
-LinkedIn :  <a target="_blank" rel="noreferrer" href="//www.linkedin.com/in/manya-garg-99849320a/">
-              manya garg
-            </a>
+<span className='linkedIn'> LinkedIn :  <a target="_blank" rel="noreferrer" href="//www.linkedin.com/in/manya-garg-99849320a/">
+              @ManyaGarg
+            </a></span>
         </PText>
         <div className="aboutSection__buttons">
           <Button btnText="Works" btnLink="/projects" />

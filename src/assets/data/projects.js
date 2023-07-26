@@ -36,7 +36,7 @@ const projects = [
     desc:
       'A react.js based responsive portfolio website to understnad me better ',
     img: CavinImg,
-    linkk: '//github.com/ManyaGarg20/My_Portfolio',
+    linkk: '//github.com/ManyaGarg20/MyPortfolio',
   },
 ];
 

@@ -9,7 +9,7 @@ const AboutItemStyles = styled.div`
   position: relative;
   margin-top: 4.5rem;
   .title {
-    font-size: 2.4rem;
+      font-size: 2.2rem;
   }
   .items {
     display: flex;
@@ -19,7 +19,7 @@ const AboutItemStyles = styled.div`
   }
   .item {
     background-color: var(--deep-dark);
-    padding: .8rem;
+    padding: 1rem;
     border-radius: 8px;
   }
   @media only screen and (max-width: 768px) {
@@ -28,7 +28,7 @@ const AboutItemStyles = styled.div`
     gap: 1rem;
     .items {
       position: initial;
-      gap: 1rem;
+      gap: 2rem;
     }
     .title {
       font-size: 2rem;

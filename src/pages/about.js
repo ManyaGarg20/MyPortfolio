@@ -68,6 +68,9 @@ const AboutPageStyles = styled.div`
     display: inline-block;
     color: black;
   }
+  .linkedIn{
+    color: var(--white)
+      }
   @media only screen and (max-width: 768px) {
     padding: 9rem 0 0 0;
     .top-section {
@@ -123,9 +126,9 @@ export default function About() {
                   create more good stuff that helps the world to become a better
                   place.
 <br/><br />
-                  LinkedIn :  <a target="_blank" rel="noreferrer" href="//www.linkedin.com/in/manya-garg-99849320a/">
-              manya garg
-            </a>
+          <span className='linkedIn'> LinkedIn :  <a target="_blank" rel="noreferrer" href="//www.linkedin.com/in/manya-garg-99849320a/">
+              @ManyaGarg
+            </a> </span>      
                 </PText>
               </div>
               <a href={ExamplePdf} download="Manya_Resume" target="_blank" rel="noreferrer" className='button'> Download CV  </a>
@@ -154,7 +157,7 @@ export default function About() {
             <div className="about__info__item">
               <h1 className="about__info__heading">My Skills</h1>
               <AboutInfoItem
-                title="Programming Languages"
+                title="Prog Language"
                 items={['c++']}
               />
               <AboutInfoItem
