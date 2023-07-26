@@ -79,7 +79,7 @@ export default function HeroSection() {
     <PText>
     Dedicated and a hardworking individual
 currently enrolled in final year of
-B,Tech(Computer Science). Looking for a suitable position
+B.Tech(Computer Science). Looking for a suitable position
 to utilise my strong technical and
 analytical skills. Also a team player with
 an eye for detail.
