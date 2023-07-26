@@ -122,6 +122,10 @@ export default function About() {
                   everything is becoming better than ever. It is time for us to
                   create more good stuff that helps the world to become a better
                   place.
+<br/><br />
+                  LinkedIn :  <a target="_blank" rel="noreferrer" href="//www.linkedin.com/in/manya-garg-99849320a/">
+              manya garg
+            </a>
                 </PText>
               </div>
               <a href={ExamplePdf} download="Manya_Resume" target="_blank" rel="noreferrer" className='button'> Download CV  </a>

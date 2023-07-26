@@ -89,6 +89,10 @@ Btech(CS). Looking for a suitable position
 to utilise my strong technical and
 analytical skills. Also a team player with
 an eye for detail.
+<br /> <br/>
+LinkedIn :  <a target="_blank" rel="noreferrer" href="//www.linkedin.com/in/manya-garg-99849320a/">
+              manya garg
+            </a>
         </PText>
         <div className="aboutSection__buttons">
           <Button btnText="Works" btnLink="/projects" />
