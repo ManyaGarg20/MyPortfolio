@@ -68,7 +68,7 @@ export default function HeroSection() {
         <div className='hero'>
     <div className='container'>
         <h1 className='hero__heading'>
-            <span>Hello , This is </span>
+            <span>Hi, This is </span>
             <span className="hero__name"> MANYA GARG</span>
         </h1>
         <div className='hero__img'>
@@ -77,13 +77,9 @@ export default function HeroSection() {
         
 <div className='hero__info'>
     <PText>
-    Dedicated and a hardworking individual
-currently enrolled in final year of
-B.Tech(Computer Science). Looking for a suitable position
-to utilise my strong technical and
-analytical skills. Also a team player with
-an eye for detail.
-
+   <b> Software Engineer | Turning clean code into real-world impact, with discipline,
+            creativity, and a love for the details.
+     </b>
          </PText>
          <Button btnLink="/projects" btnText='see my works'/>
 </div>
