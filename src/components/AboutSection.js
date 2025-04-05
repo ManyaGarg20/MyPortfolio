@@ -89,7 +89,8 @@ export default function AboutSection() {
      <b> Software Engineer | I am driven and detail-oriented, with a strong 
             grasp of front-end technologies—React, TypeScript, AG Grid, and CSS-in-JS.
               I like things to be organized and precise, often focusing on precision
-              .I am also solution-focused, diving deep into subtle UI issues and seeking elegant answers.
+              .I am also solution-focused, diving deep into subtle UI issues and seeking
+              elegant answers.
             </b>
     <br /> <br/>
 <span className='linkedIn'> LinkedIn :  <a target="_blank" rel="noreferrer" href="//www.linkedin.com/in/manya-garg-99849320a/">
