@@ -86,13 +86,8 @@ export default function AboutSection() {
           heading="About Me"
         />
         <PText>
-        Dedicated and a hardworking individual
-currently enrolled in the 3rd year of
-Btech(CS). Looking for a suitable position
-to utilise my strong technical and
-analytical skills. Also a team player with
-an eye for detail.
-<br /> <br/>
+     <b>       Software Engineer | Turning clean code into real-world impact, with discipline, creativity, and a love for the details.<b/>
+    <br /> <br/>
 <span className='linkedIn'> LinkedIn :  <a target="_blank" rel="noreferrer" href="//www.linkedin.com/in/manya-garg-99849320a/">
               @ManyaGarg
             </a></span>
