@@ -72,7 +72,9 @@ export default function HeroSection() {
             <span className="hero__name"> MANYA GARG</span>
         </h1>
         <div className='hero__img'>
-            <img src={MyImg} alt="myImg" />
+           <video width="750" height="500" controls >
+      <source src="../assets/images/AiVideo.mp4" type="video/mp4"/>
+     </video>
         </div>
         
 <div className='hero__info'>
