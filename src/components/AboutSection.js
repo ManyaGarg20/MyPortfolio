@@ -40,7 +40,10 @@ padding: 8rem 0;
     }
   }
   .linkedIn{
-color: var(--white)
+color: var(--white);
+font-weight: bold;
+font-size: 1.5em
+
   }
   @media only screen and (max-width: 768px) {
     .container {

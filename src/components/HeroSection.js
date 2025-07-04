@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import MyImg from '../assets/images/img-mg2.jpg';
+import AiVideo from '../assets/images/AiVideo.mp4'; 
+import AiVideoCaptions from '../assets/images/AiVideoCaptions.vtt';
 import PText from './PText';
 import Button from './Button';
 
@@ -26,7 +27,8 @@ const HeroStyles = styled.div`
     }
     .hero__name {
       font-family: 'Montserrat SemiBold';
-      font-size: 2em;
+      font-size: 1.6em;
+      margin-bottom: 20px;
       color: var(--white);
     }
   }
@@ -72,9 +74,16 @@ export default function HeroSection() {
             <span className="hero__name"> MANYA GARG</span>
         </h1>
         <div className='hero__img'>
-           <video width="750" height="500" controls >
-      <source src="../assets/images/AiVideo.mp4" type="video/mp4"/>
-     </video>
+        <video width="550" height="350" controls>
+  <source src={AiVideo} type="video/mp4" />
+  <track
+    src={AiVideoCaptions}
+    kind="captions"
+    srcLang="en"
+    label="English captions"
+  />
+  Your browser does not support the video tag.
+</video>
         </div>
         
 <div className='hero__info'>

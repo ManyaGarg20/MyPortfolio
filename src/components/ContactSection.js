@@ -59,7 +59,7 @@ export default function ContactSection() {
           <div className="left">
             <ContactInfoItem icon={<MdLocalPhone />} text="+91 9654415007" />
             <ContactInfoItem icon={<MdEmail />} text="manyagarg2002@gmail.com" />
-            <ContactInfoItem text="Ghaziabad ,Uttar Pradesh ,India" />
+            <ContactInfoItem text={<a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/manya-garg-99849320a/"> LinkedIn </a>}/>
           </div>
           <div className="right">
             <ContactForm />
