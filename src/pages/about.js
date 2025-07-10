@@ -2,8 +2,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import PText from '../components/PText';
-// import Button from '../components/Button';
-import AboutImg from '../assets/images/about-page-img.png';
+ import AboutImg from '../assets/images/about-page-img.png';
 import AboutInfoItem from '../components/AboutInfoItem.js';
 import ContactBanner from '../components/ContactBanner';
 import Footer from '../components/Footer';
@@ -151,43 +150,43 @@ export default function About() {
               />
               <AboutInfoItem
                 title="College"
-                items={['Jaypee Institute of Information and Technology , Noida',    'CGPA : 7.9         ' , ' 2020-24']}
+                items={['Jaypee Institute of Information and Technology ,Noida',    'CGPA : 8.0 / 10.0            ' , '  2020-24']}
               />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">My Skills</h1>
               <AboutInfoItem
                 title="Prog Language"
-                items={['c++']}
+                items={['C++','C#']}
               />
               <AboutInfoItem
                 title="FrontEnd"
-                items={['HTML', 'CSS', 'JavaScript', 'REACT']}
+                items={['HTML', 'CSS', 'JavaScript', 'React.Js' , 'TypeScript', 'AG Grid']}
               />
               <AboutInfoItem
                 title="BackEnd"
-                items={['Node', 'SQL', 'PHP']}
+                items={['Node', 'SQL']}
               />
               <AboutInfoItem
-                title="Design"
-                items={['Canva', 'Ms Word', 'Figma']}
+                title="Tools/Softwares"
+                items={['Canva', 'Ms Word', 'Figma' , 'ChatGpt', 'Git', 'Github']}
               />
                <AboutInfoItem
                 title="Languages"
-                items={['Hindi', 'English']}
+                items={['Hindi(Proficient)', 'English(Proficient)' , 'French(Intermediate)']}
               />
             </div>
 
             <div className="about__info__item">
-              <h1 className="about__info__heading">Trainings/Internships</h1>
+              <h1 className="about__info__heading">Experience/Internships</h1>
 
               <AboutInfoItem
                 title="Intern"
                 items={['Summer Intern @ S&P Global','2023 June-July']}
               />
               <AboutInfoItem
-                title="Intern"
-                items={['Web Intern @ BasketHunt Pvt Ltd ','2023 Feb-March']}
+                title="Software Developer"
+                items={[' Software Developer 1 @ S&P Global','2024 June-ongoing']}
               />
              
             </div>

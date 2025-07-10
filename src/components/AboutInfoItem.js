@@ -10,6 +10,7 @@ const AboutItemStyles = styled.div`
   margin-top: 4.5rem;
   .title {
       font-size: 2.2rem;
+      width: 15rem;
   }
   .items {
     display: flex;
